@@ -21,11 +21,9 @@ const Header = () => {
                 Home
               </li>
             </Link>
-            <Link to="/Category">
-              <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
-                Category
-              </li>
-            </Link>
+            <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
+              Category
+            </li>
             <li className="text-base text-black font-bold hover:text-orange-900 hover:underline underline-offset-2 decoration-[1px] cursor-pointer duration-300">
               Shop
             </li>
