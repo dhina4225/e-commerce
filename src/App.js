@@ -12,7 +12,6 @@ import Product from "./components/Product";
 import Home from "./Home";
 import Cart from "./pages/Cart";
 import Login from "./pages/Login";
-import Category from "./components/Category";
 
 const Layout = () => {
   return (
@@ -46,10 +45,6 @@ const router = createBrowserRouter([
       {
         path: "/login",
         element: <Login />,
-      },
-      {
-        path: "/category",
-        element: <Category />,
       },
     ],
   },
